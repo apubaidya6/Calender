@@ -1,0 +1,44 @@
+.week-name ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 2em;
+}
+
+.week-name li{
+    list-style: none;
+    font-size: 30px;
+    /* height: 50px; */
+    /* background-color: orchid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Londrina Solid', cursive;
+}
+
+    .week-name .hollyday{
+        color: red;
+    }
+
+.calender ul{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-gap: 2em;
+}
+
+.calender li{
+    list-style: none;
+    font-size: 30px;
+    height: 150px;
+    background-color: rgb(235, 205, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calender .hollyday{
+    color: red;
+}
+
+.calender .other{
+    background-color: rgb(202, 175, 175);
+}
